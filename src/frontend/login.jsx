@@ -39,7 +39,7 @@ const StyledButton = styled(Button)(({ theme }) => ({
   margin: theme.spacing(2, 0),
   padding: theme.spacing(1),
   fontSize: '0.8rem',
-  width: '100%', // Make the button take up the full width
+  width: '100%', 
 }));
 
 const StyledOuterWrapper = styled('div')({
@@ -47,7 +47,7 @@ const StyledOuterWrapper = styled('div')({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  background: 'white', // White background
+  background: 'white', 
 });
 
 export default function Login() {

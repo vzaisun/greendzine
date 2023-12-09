@@ -22,10 +22,10 @@ import employees from './data/employees';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#FFFFFF', // Dark Grey
+      main: '#FFFFFF',
     },
     secondary: {
-      main: '#191970', // Yellow-Green
+      main: '#191970', 
     },
   },
 });
@@ -44,7 +44,7 @@ const EmployeeList = () => {
 
   const navigate=useNavigate();
   const goToHomePage = () => {
-    navigate('/dashboard'); // Navigate to the
+    navigate('/dashboard'); 
   };
 
 
